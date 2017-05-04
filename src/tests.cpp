@@ -45,11 +45,11 @@ bool tests::test1(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
 
 bool tests::test2(){
@@ -64,11 +64,11 @@ bool tests::test2(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
 
 bool tests::test3(){
@@ -83,11 +83,11 @@ bool tests::test3(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
 
 bool tests::test4(){
@@ -102,11 +102,11 @@ bool tests::test4(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
 
 bool tests::test5(){
@@ -121,11 +121,11 @@ bool tests::test5(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
 
 bool tests::test6(){
@@ -140,9 +140,9 @@ bool tests::test6(){
 
     if(a->run(arr) == assert && b->run(arr) == assert){
         std::cout << "\nTest \"" << name << "\" success\n";
-        return 1;
+        return true;
     }else {
         std::cout << "\nTest "<< name << " failed: got " << a->run(arr) << " for 1st algorithm, and " << b->run(arr) << " for 2nd, " << " needed " << assert << "\n";
     }
-    return -1;
+    return false;
 }
