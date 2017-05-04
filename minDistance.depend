@@ -25,3 +25,29 @@
 	<iostream>
 	<limits>
 
+1493897132 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/main.cpp
+	<iostream>
+	"minDistance1.h"
+	"minDistance2.h"
+	"tests.h"
+
+1493895914 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/minDistance1.h
+
+1493895906 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/minDistance2.h
+
+1493895922 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance1.cpp
+	"minDistance1.h"
+	<iostream>
+	<limits>
+	<stdlib.h>
+
+1493895395 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance2.cpp
+	"minDistance2.h"
+	<iostream>
+	<limits>
+
+1493895486 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/tests.cpp
+	"tests.h"
+
+1493897340 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/tests.h
+

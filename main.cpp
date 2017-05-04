@@ -2,16 +2,18 @@
 
 #include "minDistance1.h"
 #include "minDistance2.h"
+#include "tests.h"
+
 
 
 using namespace std;
 
 int main()
 {
-    int arr[6] = {5, 1, 2, 3, 4, 5};
-    minDistance1 * a = new minDistance1();
-    minDistance2 * b = new minDistance2();
-    cout << a->run(arr) << "\n";
-    cout << b->run(arr);
-    //cout << arr2;
+    tests * a = new tests();
+    if(a->runTests() == 1){
+        cout << "\nTests completed successfully\n\n";
+    } else {
+        cout << "\nTests failed\n\n";
+    }
 }

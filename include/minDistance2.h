@@ -2,8 +2,7 @@
 #define MINDISTANCE2_H
 
 
-class minDistance2
-{
+class minDistance2{
     public:
         minDistance2();
         int run(int arr[]);
