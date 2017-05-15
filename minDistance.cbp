@@ -36,9 +36,15 @@
 		</Compiler>
 		<Unit filename="include/minDistance1.h" />
 		<Unit filename="include/minDistance2.h" />
+		<Unit filename="include/minDistance2Output.h" />
+		<Unit filename="include/output.h" />
+		<Unit filename="include/tests.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/minDistance1.cpp" />
 		<Unit filename="src/minDistance2.cpp" />
+		<Unit filename="src/minDistance2Output.cpp" />
+		<Unit filename="src/output.cpp" />
+		<Unit filename="src/tests.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

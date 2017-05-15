@@ -3,6 +3,7 @@
 #include <limits>
 #include <vector>
 #include <time.h>
+#include <cmath>
 
 using namespace std;
 
@@ -29,12 +30,12 @@ int minDistance2::run(int arr[]){
 }
 
 
-float minDistance2::timeRun(int arr[]){
+float minDistance2::timeRun(vector<long unsigned int> arr){
     clock_t t = clock();
     t = clock();
-    int length = arr[0];
+    int length = arr.size();
     int dmin = numeric_limits<int>::max();
-    int temp = 0;
+    long long int temp = 0;
     for(int i = 1; i <= length - 1; i++){
         for(int j = i+1; j <= length; j++){
             temp = abs(arr[i] - arr[j]);
@@ -47,16 +48,16 @@ float minDistance2::timeRun(int arr[]){
     return (((float)t)/CLOCKS_PER_SEC);
 }
 
-long int minDistance2::operationsRun(int arr[]){
-    long int n;
-    int length = arr[0];
+long unsigned int minDistance2::operationsRun(vector<long unsigned int> arr){
+    long unsigned int n = 0;
+    int length = arr.size();
     int dmin = numeric_limits<int>::max();
-    int temp = 0;
-    for(int i = 1; i <= length - 1; i++){
+    long unsigned int temp = 0;
+    for(int i = 0; i <= length - 1; i++){
         for(int j = i+1; j <= length; j++){
-            n++; //Again maybe not????
             temp = abs(arr[i] - arr[j]);
             if(temp < dmin){
+                n++; //maybe?
                 dmin = temp;
             }
         }
@@ -68,7 +69,7 @@ void minDistance2::addTime(float time){
     timeData2.push_back(time);
 }
 
-void minDistance2::addOperations(long int n){
+void minDistance2::addOperations(long unsigned int n){
     numOperations2.push_back(n);
 }
 
