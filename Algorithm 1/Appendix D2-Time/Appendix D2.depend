@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1495592095 source:c:\users\billie\desktop\appendix d2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<limits>
+	<iomanip>
+
