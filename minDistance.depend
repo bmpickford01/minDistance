@@ -32,21 +32,22 @@
 	"tests.h"
 	"minDistance2Output.h"
 
-1493901072 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/minDistance1.h
+1495854718 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/minDistance1.h
 	<vector>
 
 1494841103 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/minDistance2.h
 	<vector>
 
-1493901221 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance1.cpp
+1495856230 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance1.cpp
 	"minDistance1.h"
 	<iostream>
 	<limits>
 	<stdlib.h>
 	<vector>
 	<time.h>
+	<cmath>
 
-1494841120 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance2.cpp
+1495856747 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance2.cpp
 	"minDistance2.h"
 	<iostream>
 	<limits>
@@ -70,9 +71,10 @@
 
 1493901530 /home/benjamin/Documents/CAB301 Algorithms/minDistance/include/output.h
 
-1494841294 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance2Output.cpp
+1495856656 source:/home/benjamin/Documents/CAB301 Algorithms/minDistance/src/minDistance2Output.cpp
 	"minDistance2Output.h"
 	"minDistance2.h"
+	"minDistance1.h"
 	<vector>
 	<time.h>
 	<math.h>

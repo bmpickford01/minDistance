@@ -9,12 +9,8 @@ class minDistance1{
     public:
         minDistance1();
         int run(int arr[]);
-        float timeRun(int arr[]);
-        long int operationsRun(int arr[]);
-        void addTime(float time);
-        void addOperations(long int n);
-        vector<float> getTimes();
-        vector<long int> getOperations();
+        float timeRun(vector<long unsigned int> array1);
+        long unsigned int operationsRun(vector<long unsigned int> aray1r);
 
     protected:
 

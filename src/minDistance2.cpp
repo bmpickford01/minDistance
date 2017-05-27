@@ -57,27 +57,11 @@ long unsigned int minDistance2::operationsRun(vector<long unsigned int> arr){
         for(int j = i+1; j <= length; j++){
             temp = abs(arr[i] - arr[j]);
             if(temp < dmin){
-                n++; //maybe?
                 dmin = temp;
             }
+            n++;
         }
     }
     return n;
-}
-
-void minDistance2::addTime(float time){
-    timeData2.push_back(time);
-}
-
-void minDistance2::addOperations(long unsigned int n){
-    numOperations2.push_back(n);
-}
-
-vector<float> minDistance2::getTimes(){
-    return timeData2;
-}
-
-vector<long int> minDistance2::getOperations(){
-    return numOperations2;
 }
 
