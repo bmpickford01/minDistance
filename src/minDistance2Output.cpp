@@ -11,18 +11,6 @@
 
 minDistance2Output::minDistance2Output(){
     runOperations();
-//    //runOperations();
-//    long int operations;
-//    vector<long int> arr;
-//    for(int a = 0; a < 10; a++){
-//        arr.push_back(a);
-//        cout << a << "\n";
-//    }
-//    cout << "arr " << arr[0] << "\n";
-//    minDistance2 * m = new minDistance2();
-//    operations = m->operationsRun(arr);
-//
-//    cout << "num operations: " << operations;
 }
 
 void minDistance2Output::runTime(){
@@ -88,12 +76,8 @@ void minDistance2Output::runOperations(){
     file << "Array Size, Num Operations, cubed, squared\n";
 
     for(int i = 0; i < operationData.size();i++){
-        long unsigned int e = (arrCount[i] - 1) * (arrCount[i] - 1);
-        long unsigned int e2 = (arrCount[i] - 1) * (arrCount[i] - 1) * (arrCount[i] - 1);
         file << arrCount[i] << ",";
-        file << operationData[i] << ",";
-        file << e2 << ",";
-        file << e << "\n";
+        file << operationData[i] << "\n";
     }
     file << "\n";
     file.close();
